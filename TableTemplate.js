@@ -37,6 +37,6 @@ class TableTemplate {
                 }
             }
         }
-        table.style.visibility = "visible";
+        table.style.visibility = "visible";  //Changes the visibility
     }
 }
