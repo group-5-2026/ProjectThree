@@ -10,6 +10,7 @@ class TableTemplate {
     static fillIn(id, dictionary, columnName){
         console.log(columnName);
         const table = document.getElementById(id);
+        if (!table) return;
         if (columnName === undefined) {
             const templateProcessor = new TemplateProcessor(table.innerHTML);
             table.innerHTML = templateProcessor.fillIn(dictionary);
