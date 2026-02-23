@@ -1,12 +1,11 @@
 table {
-    border: black solid 1px;
+    border: 1px solid black;
 }
 td.not-in-month{
     background-color: transparent;
 }
 td.not-in-month:hover {
     cursor: default;
-    background-color: transparent;
     color: black;
 }
 
